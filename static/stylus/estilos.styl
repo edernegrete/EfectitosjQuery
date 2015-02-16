@@ -1,0 +1,54 @@
+amarillito = #FCD271
+azulito = #2BBBD8
+azulote = #102E37
+blanquito = #E8EDE0
+blanquitito=#C0C0C0
+@font-face 
+	font-family: 'icomoon'
+	src:url('../fonts/icomoon.eot');
+	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.svg#icomoon') format('svg')
+	font-weight: normal
+	font-style: normal
+
+body
+	background blanquitito
+	margin 0
+	font-size 16px
+	padding 0
+header
+	background azulito
+	color blanquito
+	font-size 2em
+	padding 3em
+	h2
+		background azulote
+		border-radius .5em
+		color amarillito
+		display inline-block
+		font-family 'Loved by the King', cursive
+	ul
+		text-align center
+	li
+		color blanquito
+		display inline-block
+		font-family 'Roboto Slab'
+		margin-left 1em
+		text-align center
+	a
+		color blanquito
+		text-decoration none
+		transition all .5s ease
+	a:hover
+		font-size 2em
+#mail:before
+	content "\e602"
+	font-family 'icomoon'
+.twitter:before
+	content "\e600"
+	font-family 'icomoon'
+.github:before
+	content '\e601'
+	font-family 'icomoon'
